@@ -54,12 +54,18 @@ function InputPage() {
 
     const onSubmit = (event) => {
         event.preventDefault();
+        if (AgeValue === 0 || height === 0 || weight === 0 || exerciseTime === 0) {
+            message.error('모든 필수 정보를 입력해주세요');
+            return; // 누락된 정보가 있을 경우 이후 작업 중단
+        }
+    
+   
         message.success(`프로필이 입력되었습니다`);
         navigate('inputMenu');
     };
 
     return (
-        <div className='inputPage' style={{ backgroundColor: 'beige', paddingTop: '50px', paddingBottom : '50px' }}>
+        <div className='inputPage' >
             <div style={{ maxWidth: '700px', margin: 'auto', background: 'white', padding: '20px', borderRadius: '10px' }}>
                 <div className='input-logo'>건강 프로필</div>
                 <Form onSubmit={onSubmit}>

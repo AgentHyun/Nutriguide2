@@ -8,19 +8,19 @@ const ProductPage = () => {
       id: 1,
       name: '멀티비타민',
       price: '$10',
-      imageUrl: 'supple1.jpg', // 이미지 경로는 실제 이미지가 위치한 경로로 수정해야 합니다.
+      imageUrl: 'supple1.jpg', 
     },
     {
       id: 2,
       name: '오메가-3',
       price: '$15',
-      imageUrl: 'supple2.jpg', // 이미지 경로는 실제 이미지가 위치한 경로로 수정해야 합니다.
+      imageUrl: 'supple2.jpg', 
     },
     {
       id: 3,
       name: '칼슘+비타민 D',
       price: '$12',
-      imageUrl: 'supple3.jpg', // 이미지 경로는 실제 이미지가 위치한 경로로 수정해야 합니다.
+      imageUrl: 'supple3.jpg', 
     },
   ];
 

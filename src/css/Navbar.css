@@ -67,7 +67,7 @@
   }
   
   .nav-links {
-    color: #df8005;
+    color: #000000;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -76,11 +76,11 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid#94eb72;
+    border-bottom: 4px solid#f7d06d;
     transition: all 0.2s ease-out;
   }
   .nav-links.active-link {
-    border-bottom: 4px solid #94eb72;
+    border-bottom: 4px solid #ffffff;
     transition: all 0.2s ease-out;
 }
   .fa-bars {
